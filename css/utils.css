@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+
+:root {
+  --main-bg-color: red;
+  --font1:'Bitter', serif;
+  --font2:'Bitter', serif;
+}
+.font1{
+  font-family: var(--font1);
+}
+.font2{
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.mu-2{
+  margin-bottom:12px ;
+  margin-top: 12px;
+}
+
+.btn:hover{
+  color: wheat;
+  background-color:var(--main-bg-color);
+ }
+.btn{
+    padding: 3.0px 5.0px;
+    margin: 1px 10px;
+    border: 2.9px solid black;
+    border-radius: 13px;
+    font-family: var(--font2);
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.form-control {
+
+}
+.form-input:hover{
+  background-color: black;
+  border-radius: 35px;
+  color: white;
+}
+.form-input{
+    padding: 2.6px 4px;
+    font-size: 18px;
+    border: 2.9px solid black;
+    border-radius: 13px;
+    margin: 0 7px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+    
+}
+.form-box input ,textarea{
+  width: 30vw;
+  padding: 3.5px 5px;
+  margin: 7px;;
+}
